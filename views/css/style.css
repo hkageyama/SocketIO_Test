@@ -1,0 +1,76 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+#body 
+    { background: #ffff96; 
+      font: 13px Helvetica, Arial; }
+#body_agent 
+    { background: rgb(210, 233, 236); 
+      font: 13px Helvetica, Arial; }
+
+/*************/
+/* Room List */
+/*************/
+#list 
+    { height: 100vh; width: 24vw; 
+      margin-left: 2px; margin-right: 2px; float: left; position: relative; }
+
+/* header */
+#list_header 
+    { height: 40px; width: 100%; background:darkgray; 
+      padding:5px; position: absolute;
+      font-size: 25px; font-weight: bold; color:white; }
+
+/* button */
+.form_agent 
+    { height: 80px; width: 100%; background: white; top: 40px; position: absolute; }
+.btn_testA
+    { width: 47%; height: 35px; background: darkgray; 
+      padding: 8px; border: none; margin: 2px; 
+      color:white;}
+.btn_testB
+    { width: 96%; height: 35px; background: darkgray; 
+      padding: 8px; border: none; margin: 2px; 
+      color:white;}
+
+/* list */
+#room_list 
+    { width: 100%; background: rgb(255, 255, 150); top: 130px; bottom:0; 
+      padding: 3px; overflow: auto; position: absolute; }
+.room_list_div
+    { border-bottom: 1px solid #eee; 
+      padding: 2px; margin-left: 3px; }
+.room_list_div:hover 
+    { background: #ddd; }
+
+/*******************/
+/* Agent Chat Form */
+/*******************/
+.content 
+    { height: 100vh; width: 24vw; border: 2px outset black;
+      margin-left: 2px; margin-right: 2px; float: left; position: relative;}
+
+/* header */
+.header
+    { height: 40px; width: 100%; background:black; 
+      padding:5px; position: absolute; 
+      font-size: 25px; font-weight: bold; color:white; }
+
+/* message */
+.messages 
+    { width: 100%; list-style-type: none; top: 40px; bottom: 40px; 
+      overflow: auto; position: absolute; }
+.messages li 
+    { padding: 5px 10px;}
+.messages li:nth-child(odd) 
+    { background: #eee; }
+
+/* sender */
+.form 
+    { height:40px; width: 100%; background:black; bottom: 1px; 
+      padding: 4px; position: absolute;}
+.input 
+    { width: 70%; padding: 8px; border: none; float: left; position: absolute; }
+.btn 
+    { width: 12%; background: rgb(130, 224, 255);
+      padding: 8px; border: none; margin-right: 2px; float: right; }
+ 
